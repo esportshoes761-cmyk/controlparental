@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Parental Control</string>
+    <string name="permission_request_message">La aplicación necesita permisos para leer contactos, acceder a notificaciones y transmitir información al tutor.</string>
+    <string name="tutor_role">Tutor</string>
+    <string name="child_role">Hijo</string>
+    <string name="server_status_connected">Conectado al servidor de monitoreo.</string>
+    <string name="server_status_disconnected">Desconectado del servidor.</string>
+</resources>

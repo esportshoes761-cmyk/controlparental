@@ -1,0 +1,5 @@
+<resources>
+    <style name="TextAppearance.App.Heading" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

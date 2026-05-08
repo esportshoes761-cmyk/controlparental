@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvMonitorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel de tutor"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvConnectedStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado: conectado al servidor"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvContactsCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactos registrados: 0" />
+
+    <TextView
+        android:id="@+id/tvNotificationCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones recibidas: 0"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvDeviceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargando dispositivos activos..."
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refrescar datos" />
+
+    <TextView
+        android:id="@+id/tvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Eventos en tiempo real..."
+        android:paddingTop="12dp" />
+</LinearLayout>
